@@ -1,0 +1,22 @@
+{
+  "name": "nextjs-localization",
+  "version": "0.1.0",
+  "description": "A simple locale management package for Next.js apps",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["nextjs", "locale", "context", "react", "i18n"],
+  "author": "separatrix",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/next": "^9.0.0",
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.11"
+  }
+}
