@@ -8,9 +8,12 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["nextjs", "locale", "context", "react", "i18n"],
-  "author": "separatrix",
-  "license": "MIT",
+  "keywords": [
+    "nextjs",
+    "locale",
+    "context",
+    "react",
+    "i18n"],
   "dependencies": {
     "typescript": "^5.6.3"
   },
@@ -18,5 +21,12 @@
     "@types/next": "^9.0.0",
     "@types/node": "^22.7.5",
     "@types/react": "^18.3.11"
-  }
+  },
+  "author": "separatrix",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/separatrixxx/nextjs-localization"
+  },
+  "homepage": "https://github.com/separatrixxx/nextjs-localization"
 }
