@@ -1,18 +1,19 @@
 import React, { ReactNode } from 'react';
 import { NextRouter } from 'next/router';
-import { LocaleContext, LocaleFiles } from './context';
+import { LocaleFiles } from './types';
+import { LocaleContext } from './context';
 
 
 // Provider to wrap components
 type LocaleProviderProps = {
     children: ReactNode;
-    localesArray: LocaleFiles;
+    locales: LocaleFiles;
     router: NextRouter;
 };
 
-export function LocaleProvider({ children, localesArray, router }: LocaleProviderProps) {
+export function LocaleProvider({ children, locales, router }: LocaleProviderProps) {
     return (
-        <LocaleContext.Provider value={{ locales: localesArray, router }}>
+        <LocaleContext.Provider value={{ locales: locales, router }}>
             {children}
         </LocaleContext.Provider>
     );

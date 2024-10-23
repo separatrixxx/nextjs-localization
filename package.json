@@ -1,6 +1,6 @@
 {
   "name": "nextjs-localization",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A simple locale management package for Next.js apps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
